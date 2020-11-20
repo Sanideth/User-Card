@@ -1,0 +1,19 @@
+{
+  "name": "profile-card",
+  "version": "1.0.0",
+  "description": "profile card component",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "compile:sass": "node-sass sass/main.scss css/style.comp.css",
+    "prefix:css": "postcss --use autoprefixer -b \"last 10 versions \" css/style.css -o css/style.prefixed.css"
+  },
+  "author": "Sandro Bochorishvili",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "9.8.6",
+    "node-sass": "^5.0.0",
+    "postcss-cli": "^8.3.0"
+  }
+}
