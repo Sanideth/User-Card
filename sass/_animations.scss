@@ -1,0 +1,9 @@
+@keyframes bgFadeIn {
+  0% {
+    background-position: -2000px -2000px, 2000px 2000px;
+  }
+
+  100% {
+    background-position: left -20rem top -55rem, right -20rem bottom -55rem;
+  }
+}

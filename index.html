@@ -3,54 +3,51 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
+    
 
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./images/favicon-32x32.png"
+      href="/img/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.prefixed.css" />
 
     <title>Frontend Mentor | Profile card component</title>
 
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
+    
     </style>
   </head>
   <body>
-    Victor Crest 26 London 80K Followers 803K Likes 1.4K Photos
+    
 
     <div class="container">
       <div class="card">
         <div class="card__box">
           <div class="card__user">
             <div class="card__user-row-1"></div>
-            <div class="card__user-img"></div>
+            <div class="card__user-img">
+              <img src="/img/image-victor.jpg" alt="User Victor Image" class="card__img">
+            </div>
             <div class="card__user-row-2">
-              <h3 class="heading-tertiary">
+              <h3 class="heading-tertiary u-mb-s u-mt-m">
                 Victor Crest <span class="card__span">26</span>
               </h3>
               <p class="text-secondary">London</p>
             </div>
           </div>
           <div class="card__stats">
-            <div class="card__stat-box">
+            <div class="card__stats-box">
               <p class="text-main">80K</p>
               <p class="text-tertiary">Followers</p>
             </div>
-            <div class="card__stat-box">
+            <div class="card__stats-box">
               <p class="text-main">803K</p>
               <p class="text-tertiary">Likes</p>
             </div>
-            <div class="card__stat-box">
+            <div class="card__stats-box">
               <p class="text-main">1.4K</p>
               <p class="text-tertiary">Photos</p>
             </div>
@@ -61,7 +58,7 @@
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
+        >. <br /> Coded by <a href="https://github.com/Sanideth" target="_blank">Sandro Bochorishvili</a>.
       </div>
     </div>
   </body>
